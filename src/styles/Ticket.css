@@ -1,0 +1,38 @@
+.ticket {
+  background: #fff;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  transition: box-shadow 0.3s ease;
+}
+
+.ticket:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ticket-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ticket-title {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.ticket-icons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.ticket-status,
+.ticket-user,
+.ticket-priority {
+  font-size: 0.9rem;
+  color: #666;
+}

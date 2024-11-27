@@ -1,0 +1,40 @@
+.ticket-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  width: 100%;
+}
+
+.ticket-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.ticket-title {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+}
+
+.ticket-tag {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.placeholder-img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.placeholderName {
+  font-size: 10px;
+  width: fit-content;
+}

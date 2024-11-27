@@ -1,0 +1,36 @@
+.kanban-board {
+  background-color: #e3f3f6;
+  padding: 1rem;
+  min-height: calc(100vh - 3rem);
+}
+
+.ticket-board {
+  display: flex;
+  gap: 3rem;
+}
+
+.ticket-column {
+  width: 100%;
+}
+
+.column-header {
+  background-color: transparent;
+  padding: 1rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border-bottom: 2px solid #ddd; */
+}
+
+.column-icon {
+  margin-right: 0.5rem;
+}
+
+.ticket-list {
+  margin-top: 1rem;
+}
+.action-number {
+  display: flex;
+  gap: 10px;
+}
